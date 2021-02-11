@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "vreyz/smartadmin-laravel": "dev-main"
+        "vreyz/smartadmin-laravel": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "~6.0"
