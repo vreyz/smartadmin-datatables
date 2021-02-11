@@ -1,0 +1,34 @@
+{
+    "name": "vreyz/smartadmin-datatables",
+    "description": "dataTable for smartadmin-laravel",
+    "type": "library",
+    "keywords": ["smartadmin-laravel", "extension"],
+    "homepage": "https://github.com/vreyz/smartadmin-datatables",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vreyz",
+            "email": "unknown3924@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "vreyz/smartadmin-laravel": "dev-main"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vreyz\\DataTable\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vreyz\\DataTable\\DataTableServiceProvider"
+            ]
+
+        }
+    }
+}
